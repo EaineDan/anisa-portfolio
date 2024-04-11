@@ -1,0 +1,149 @@
+.navbar{
+  position: relative;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background: var(--second-bg-color);
+  padding-bottom: 6rem;
+}
+
+.heading {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.aboutImg {
+  position: relative;
+  width: 45rem;
+  height: 45rem;
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImg img {
+  width: 70%;
+  border-radius: 50%;
+  border: 0.2rem solid var(--main-color);
+}
+
+.me{
+  height:85%
+}
+
+.aboutImg .circleSpin{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 78%;
+  height: 90%;
+  border-radius: 50%;
+  border-top: .2rem solid var(--second-bg-color);
+  border-bottom: .2rem solid var(--second-bg-color);
+  border-left: .2rem solid var(--main-color);
+  border-right: .2rem solid var(--main-color);
+}
+
+.aboutContent {
+  text-align: center;
+}
+
+.aboutContent h3 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  color: var(--main-color)
+}
+
+.aboutContent p {
+  font-size: 1.6rem;
+  margin: 2rem o 3rem;
+  padding-bottom: 2rem;
+}
+
+ .achievementRow{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
+  padding: 60px;
+}
+
+.achievementRow .achievementColumn{
+  flex: 1;
+}
+
+
+.achievementColumn .title{
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 2rem;
+}
+
+.achievementColumn .achievementBox{
+  border-left: .2rem solid var(--main-color);
+
+}
+
+.achievementBox .achievementContent{
+  position: relative;
+  padding-left: 3rem;
+}
+
+.achievementBox .achievementContent::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -1.1rem;
+  width: 2rem;
+  height: 2rem;
+  background: var(--main-color);
+  border-radius: 50%;
+}
+
+.achievementContent .content{
+  position: relative;
+  padding: 1.5rem;
+  border: .2rem solid var(--main-color);
+  border-radius: .6rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.achievementContent .content::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--secong-bg-color) ;
+  z-index: -1;
+  transition: .5s;
+}
+
+.achievementContent .content:hover::before{
+  width: 100%;
+}
+
+.achievementContent .content{
+  font-size: 1.5rem;
+  color: white;
+  padding-bottom: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.achievementContent .content h3{
+  font-size: 2rem;
+}  
+
+.achievementContent .content p{
+  font-size: 1.6rem;
+  padding-top: .5rem;
+}

@@ -1,0 +1,51 @@
+.logo {
+  font-size: 3rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.homeSci {
+  position: relative;
+  bottom: 1rem;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeSci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+ margin-top: 10px;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 30%;
+  font-size: 20px;
+  color: var(--main-color);
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.homeSci a:hover {
+  color: var(--bg-color);
+}
+
+.homeSci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--main-color);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.homeSci a:hover::before {
+  width: 100%;
+}
