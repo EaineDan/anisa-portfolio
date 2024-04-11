@@ -201,8 +201,13 @@ section {
 
   .homeSci a {
     width: auto; 
-    margin: 0 0.5rem; 
-    justify-content: space-evenly;
+    margin: 0 0.6rem; 
+    justify-content: space-between;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    padding: 9px;
+    gap: 20px;
   }
 
   .homeImgHover {
