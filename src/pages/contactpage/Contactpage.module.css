@@ -200,5 +200,16 @@
   .contactFormContainer {
     flex: 1;
   }
+
+  @media (max-width: 991px) {
+     .contactPageContainer {
+      display: grid;
+      grid-template-columns: 1fr;}
+  }
   
-  
+  .contactDetailsContainer {
+    padding: 30px;
+    max-width: 90%;
+    max-height: 110vh;
+    margin-left: 20px;
+  }
