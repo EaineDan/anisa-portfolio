@@ -2,15 +2,8 @@ import React from 'react';
 import styles from './Skillspage.module.css';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import { FaReact } from "react-icons/fa";
-import {
-  SiBootstrap,
-  SiCss3,
-  SiFigma,
-  SiHtml5,
-  SiMongodb,
-  SiTailwindcss,
-} from "react-icons/si";
+
+
 
 const Skillspage = () => {
   return (
@@ -111,16 +104,65 @@ const Skillspage = () => {
           </div>
         </div>
       </section>
-      <div className={styles.best}>
-        <p className="text-bold text-xl cursor-pointer">Best Skills in</p>
-        <div className="flex flex-wrap justify-center mt-4 bg-transparent">
-          <SiFigma className="text-purple-500 text-3xl m-2" />
-          <FaReact className="text-blue-500 text-lg m-2" />
-          <SiBootstrap className="text-orange-500 text-2xl m-2" />
-          <SiMongodb className="text-green-600 text-2xl m-2" />
-          <SiHtml5 className="text-red-500 text-xl m-2" />
-          <SiCss3 className="text-blue-500 text-xl m-2" />
-          <SiTailwindcss className="text-teal-500 text-2xl m-2" />
+      <div>
+        <p className={styles.heading}>
+          Best <span>Skills in</span>
+        </p>
+        <div className={styles.iconbox}>
+          <div className="text-red-500">
+            <i class="bx bxl-figma"></i>
+            <p>
+              Figma
+            </p>
+          </div>
+          <div className="text-blue-500">
+            <i class="bx bxl-tailwind-css"></i>
+            <p>
+              Tailwind
+            </p>
+          </div>
+          <div className="text-gray-500">
+            <i class="bx bxl-bootstrap"></i>
+            <p>
+              Bootstrap
+            </p>
+          </div>
+          <div className="text-red-500">
+            <i class="bx bxl-html5"></i>
+            <p>
+             Html
+            </p>
+          </div>
+          <div className="text-blue-500">
+            <i class="bx bxl-css3"></i>
+            <p>
+            CSS
+            </p>
+          </div>
+          <div className="text-yellow-500">
+            <i class="bx bxl-javascript"></i>
+            <p>
+              Javascript
+            </p>
+          </div>
+          <div className="text-blue-500">
+            <i class="bx bxl-react"></i>
+            <p>
+              React
+            </p>
+          </div>
+          <div className="text-green-700">
+            <i class="bx bxl-mongodb"></i>
+            <p>
+              MongoDb
+            </p>
+          </div>
+          <div className="text-blue-500">
+            <i class="bx bxl-nodejs"></i>
+            <p>
+              Nodejs
+            </p>
+          </div>
         </div>
       </div>
       <Footer />

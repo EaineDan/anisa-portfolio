@@ -1,51 +1,58 @@
-.logo {
-  font-size: 3rem;
-  color: var(--text-color);
-  font-weight: 500;
-}
-
-.homeSci {
-  position: relative;
-  bottom: 1rem;
-  width: 200px;
+.footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: var(--bg-color);
 }
 
-.homeSci a {
+.footerText p {
+  font-size: 1.6rem;
+  color: gray;
+  justify-items: center;
+  align-items: center;
+}
+
+.footerIconTop a {
   position: relative;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  background: transparent;
- margin-top: 10px;
-  border: 0.2rem solid var(--main-color);
-  border-radius: 30%;
-  font-size: 20px;
-  color: var(--main-color);
+  padding: .8rem;
+  background: var(--main-color);
+  border: .2rem solid var(--main-color);
+  border-radius: 50%;
   z-index: 1;
   overflow: hidden;
-  transition: 0.5s;
 }
 
-.homeSci a:hover {
-  color: var(--bg-color);
-}
-
-.homeSci a::before {
-  content: "";
+.footerIconTop a::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 0;
   height: 100%;
-  background: var(--main-color);
+  background: var(--second-bg-color);
   z-index: -1;
-  transition: 0.5s;
 }
 
-.homeSci a:hover::before {
+.footerIconTop a:hover::before {
   width: 100%;
+}
+
+.footerIconTop a i {
+  font-size: 2.4rem;
+  color: var(--bg-color);
+}
+
+.footerIconTop a i {
+  font-size: 2.4rem;
+  color: var(--bg-color);
+  transition: .5s;
+}
+
+.footerIconTop a:hover i{
+  color: var(--main-color);
 }

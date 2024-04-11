@@ -160,3 +160,9 @@ section {
   background: var(--second-bg-color);
   opacity: 0.8;
 }
+
+@media (max-width: 991px) {
+ .home {
+    padding: 0 4%;
+  }
+}

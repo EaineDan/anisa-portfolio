@@ -2,6 +2,7 @@
   font-size: 5rem;
   margin-bottom: 3rem;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .skills {
@@ -110,4 +111,21 @@ transition: .5s;
 .skillsColumn:nth-child(2) .skillsContent .progress:nth-child(4) .bar span {
   width: 85%;
 }
+
+.iconbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 20rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 12rem;
+  background: var(--bg-color);
+  margin-left: 10rem;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 25px;
+  padding-left: 15px;
+}
+
 

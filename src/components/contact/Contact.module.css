@@ -65,7 +65,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #081b29;
+  background: var(--bg-color);
   z-index: -1;
   transition: 0.5s;
 }

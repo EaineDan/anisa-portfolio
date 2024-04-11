@@ -173,10 +173,7 @@ const Aboutpage = () => {
                       </span>
                     ) : (
                       <>
-                        <span className="w-full h-[2px] rounded-lg bg-mainColor inline-flex"></span>
-                        <span className="w-full h-[2px] rounded-lg bg-mainColor inline-flex"></span>
-                        <span className="w-full h-[2px] rounded-lg bg-mainColor inline-flex"></span>
-                        <span className="w-full h-[2px] rounded-lg bg-mainColor inline-flex"></span>
+                        
                       </>
                     )}
                   </div>
