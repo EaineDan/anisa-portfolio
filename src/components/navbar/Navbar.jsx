@@ -1,12 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <header className={styles.header}>
+      <header className={`${styles.header} ${isSticky ? styles.sticky : ""}`}>
         <Link to="/">
           <a href="#home" className={styles.logo}>
             <span>A</span>nisa.

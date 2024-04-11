@@ -26,7 +26,7 @@ section {
 
 .homeContent .textAnimate {
   position: relative;
-  width: 80rem;
+  width: 39rem;
 }
 
 .homeContent .textAnimate h3 {
@@ -34,6 +34,7 @@ section {
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 0.7px var(--main-color);
+  padding-left: 0;
 }
 
 .homeContent p {
@@ -162,7 +163,49 @@ section {
 }
 
 @media (max-width: 991px) {
- .home {
-    padding: 0 4%;
+  .home {
+    padding: 10rem 4% 0; 
+    background: var(--bg-color);
+    position: relative;
+  }
+
+  .homeContent {
+    text-align: center; 
+    
+  }
+
+  .homeContent h1 {
+    font-size: 4rem; 
+    margin-bottom: 1rem; 
+  }
+
+  .homeContent .textAnimate {
+    width: 100%; 
+  }
+
+  .homeContent .textAnimate h3 {
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; 
+  }
+
+  .homeContent p {
+    font-size: 1.4rem; 
+    margin-bottom: 2rem; 
+  }
+
+  .homeSci {
+    display: flex;
+    justify-content: center; 
+    margin-top: 2rem; 
+  }
+
+  .homeSci a {
+    width: auto; 
+    margin: 0 0.5rem; 
+    justify-content: space-evenly;
+  }
+
+  .homeImgHover {
+    display: none; 
   }
 }
