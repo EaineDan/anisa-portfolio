@@ -164,9 +164,11 @@ section {
 
 @media (max-width: 991px) {
   .home {
-    padding: 10rem 4% 0; 
-    background: var(--bg-color);
+    padding: 0 2% 0; 
+    background-size: 42%;
+    border-radius: 0;
     position: relative;
+    text-align: center;
   }
 
   .homeContent {
@@ -175,8 +177,9 @@ section {
   }
 
   .homeContent h1 {
-    font-size: 4rem; 
+    font-size: 3.5rem; 
     margin-bottom: 1rem; 
+    text-align: center;
   }
 
   .homeContent .textAnimate {
@@ -185,7 +188,7 @@ section {
 
   .homeContent .textAnimate h3 {
     font-size: 2.5rem; 
-    margin-bottom: 1rem; 
+ 
   }
 
   .homeContent p {
@@ -207,10 +210,18 @@ section {
     height: 40px;
     align-items: center;
     padding: 9px;
-    gap: 20px;
+  
   }
 
   .homeImgHover {
     display: none; 
+  }
+
+  .btnBox ,btn {
+    width: 25rem;
+    height: 4rem;
+    gap: 1rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
   }
 }

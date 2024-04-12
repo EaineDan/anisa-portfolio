@@ -86,7 +86,7 @@ p {
     grid-template-columns: 1fr;
   }
 
-  .projects {
+  .projects .newprojects {
     grid-template-columns: 1fr;
   }
 }
