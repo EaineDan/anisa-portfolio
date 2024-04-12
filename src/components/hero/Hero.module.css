@@ -165,10 +165,10 @@ section {
 @media (max-width: 991px) {
   .home {
     padding: 0 2% 0; 
-    background-size: 42%;
     border-radius: 0;
     position: relative;
-    text-align: center;
+    background: none;
+    margin-left: 3rem;
   }
 
   .homeContent {
@@ -177,7 +177,7 @@ section {
   }
 
   .homeContent h1 {
-    font-size: 3.5rem; 
+    font-size: 4rem; 
     margin-bottom: 1rem; 
     text-align: center;
   }
@@ -187,24 +187,26 @@ section {
   }
 
   .homeContent .textAnimate h3 {
-    font-size: 2.5rem; 
+    font-size: 3rem; 
  
   }
 
   .homeContent p {
-    font-size: 1.4rem; 
-    margin-bottom: 2rem; 
+    font-size: 2rem; 
+    margin-bottom: 1.5rem; 
   }
 
   .homeSci {
     display: flex;
     justify-content: center; 
-    margin-top: 2rem; 
+    margin-top: .5rem; 
+    margin-left: 2rem ;
+    row-gap: 2rem;
   }
 
   .homeSci a {
     width: auto; 
-    margin: 0 0.6rem; 
+    margin: 0 0.5rem; 
     justify-content: space-between;
     width: 40px;
     height: 40px;
@@ -217,11 +219,9 @@ section {
     display: none; 
   }
 
-  .btnBox ,btn {
-    width: 25rem;
-    height: 4rem;
-    gap: 1rem;
-    margin-bottom: 0;
-    font-size: 1.5rem;
+  .btn {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
   }
+
 }

@@ -122,7 +122,7 @@ const Projectspage = () => {
             <img src={projectFive} alt="" className={styles.pic} />
             <div className={styles.content}>
               <h3>Forage</h3>
-              <h5>SiteMap, UserFlow Diagram & Volunteer Form Page</h5>
+              <h5>Frontend web development</h5>
               <p>
                 Created a sitemap, userflow diagram and volunteer form page for
                 a non-profit organization on forage project simulation using

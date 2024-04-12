@@ -31,7 +31,7 @@ const services = [
     id: 4,
     icon: <FaGlobe />,
     title: "Hosting Websites",
-    des: "i use Vercel for hosting front-end applications and Render for hosting backend applications",
+    des: "I use Vercel for hosting front-end applications and Render for hosting backend applications",
   },
   {
     id: 5,
@@ -92,8 +92,8 @@ const Aboutpage = () => {
                 <p>
                   I'm keen on ensuring that all projects have responsive designs
                   that are mobile friendly and optimized for all screen sizes
-                  using techniques such as media query and css framworks like
-                  tailwind, css and bootstrap
+                  using techniques such as media query and css frameworks like
+                  tailwind, css and bootstrap.
                 </p>
               </div>
             </div>
@@ -104,7 +104,7 @@ const Aboutpage = () => {
                 <p>
                   All my successful projects that i collaborated on have all
                   been curated through project delegation, effective
-                  communication and team work
+                  communication and team work.
                 </p>
               </div>
             </div>
@@ -115,7 +115,7 @@ const Aboutpage = () => {
                 <p>
                   I pride myself in working effectively to create websites that
                   are responsive, interactive and functional in order to promote
-                  a smooth user/client experience
+                  a smooth user/client experience.
                 </p>
               </div>
             </div>
@@ -162,13 +162,13 @@ const Aboutpage = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="w-full px-12 h-94 py-10 rounded-lg flex items-center bg-bgColor group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] duration-100 group"
+              className="w-full px-12 h-96 py-10 rounded-lg flex items-center bg-bgColor group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] duration-100 group"
             >
               <div className="h-72 overflow-y-hidden">
                 <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
                   <div className="w-10 h-10 flex flex-col justify-between">
                     {service.icon ? (
-                      <span className="text-5xl text-mainColor">
+                      <span className="text-5xl md:text:4xl text-mainColor">
                         {service.icon}
                       </span>
                     ) : (
@@ -178,10 +178,10 @@ const Aboutpage = () => {
                     )}
                   </div>
                   <div className="flex flex-col gap-6">
-                    <h2 className="text-xl md:text-4xl font-titleFont font-bold text-gray-300">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-300">
                       {service.title}
                     </h2>
-                    <p className="text-xl">{service.des}</p>
+                    <p className="text-2xl md:text-3xl">{service.des}</p>
                   </div>
                 </div>
               </div>

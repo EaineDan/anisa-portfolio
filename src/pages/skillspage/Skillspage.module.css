@@ -128,4 +128,20 @@ p {
   padding-left: 15px;
 }
 
+@media (max-width: 991px) {
+  .iconbox{
+    display: flex;
+   flex-direction: column;
+   margin-left: 5rem;
+  }
 
+  p {
+    text-align: center;
+  }
+
+  .heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
