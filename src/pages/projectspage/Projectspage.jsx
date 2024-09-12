@@ -175,7 +175,7 @@ const Projectspage = () => {
           <div className={styles.container}>
             <img src={portfolio} alt="" className={styles.pic} />
             <div className={styles.content}>
-              <h3>Nisa Portfolio</h3>
+              <h3>Anisa Portfolio</h3>
               <h5>Personal Portfolio</h5>
               <p>
                 Designed my own portfolio, routed the various pages and created
@@ -199,18 +199,12 @@ const Projectspage = () => {
               </a>
             </div>
           </div>
-        </div>
-
-        <div>
-          <h2 className={styles.subhead}>
-            <span>New </span>Projects
-          </h2>
-          <div className={styles.newprojects}>
+           <div className={styles.newprojects}>
             <div className={styles.container}>
               <img src={elevate} alt="" className={styles.pic} />
               <div className={styles.content}>
-                <h3>Tranquil Grove Villa</h3>
-                <h5>Whispers of Luxury, Echoes of Tranquility</h5>
+                <h3>NisaVille</h3>
+                <h5>Think Comfort, Think Luxury</h5>
                 <p>
                   A real estate website that provides clients with various home
                   options to choose from and luxurious apartments for ones
@@ -228,14 +222,15 @@ const Projectspage = () => {
               </div>
             </div>
 
-            <div className={styles.container}>
-              <img src={forage} alt="" className={styles.pic} />
+              <div className={styles.container}>
+              <img src={dashboard} alt="" className={styles.pic} />
               <div className={styles.content}>
-                <h3>Forage</h3>
-                <h5>Full Stack Job Simulation</h5>
+                <h3>Admin Dashboard</h3>
+                <h5>Working on Admin Dashboard</h5>
                 <p>
-                  A full-stack job simulation on forage following updates of
-                  frontend from feedback received.
+                  Collaborating on a real-time group project to create and
+                  design an admin dashboard using both frontend and backend
+                  operations.
                 </p>
               </div>
               <div className={styles.icon}>
@@ -248,16 +243,20 @@ const Projectspage = () => {
                 </a>
               </div>
             </div>
+        </div>
 
+        <div>
+          <h2 className={styles.subhead}>
+            <span>New </span>Projects
+          </h2>
             <div className={styles.container}>
-              <img src={dashboard} alt="" className={styles.pic} />
+              <img src={forage} alt="" className={styles.pic} />
               <div className={styles.content}>
-                <h3>Admin Dashboard</h3>
-                <h5>Working on Admin Dashboard</h5>
+                <h3>Forage</h3>
+                <h5>Full Stack Job Simulation</h5>
                 <p>
-                  Collaborating on a real-time group project to create and
-                  design an admin dashboard using both frontend and backend
-                  operations.
+                  A full-stack job simulation on forage following updates of
+                  frontend from feedback received.
                 </p>
               </div>
               <div className={styles.icon}>
