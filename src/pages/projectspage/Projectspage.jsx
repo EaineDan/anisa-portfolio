@@ -220,9 +220,9 @@ const Projectspage = () => {
                 <FaGithub />
               </a>
             </div>
-                </div>
+           </div>
 
-            <div className={styles.container}>
+           <div className={styles.container}>
               <img src={dashboard} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>Admin Dashboard</h3>
@@ -242,7 +242,8 @@ const Projectspage = () => {
                   <FaGithub />
                 </a>
               </div>
-            </div>
+           </div>
+          </div>
         
 
           <div>
