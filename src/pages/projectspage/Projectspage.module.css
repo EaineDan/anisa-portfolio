@@ -13,22 +13,22 @@
 
 .projects {
   min-height: auto;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
-  column-gap: 8rem;
+  column-gap: 6rem;
   cursor: pointer;
 }
 
 .newprojects {
   min-height: auto;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  column-gap: 10rem;
+  column-gap: 6rem;
   cursor: pointer;
 }
 
@@ -37,12 +37,12 @@
   min-height: 120vh;
   width: auto;
   max-width: 1170px;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .pic {
   width: 600px;
-  height: 400px;
+  height: 450px;
   object-fit: center;
   border: 2.5px solid var(--main-color);
   border-radius: 15px;
