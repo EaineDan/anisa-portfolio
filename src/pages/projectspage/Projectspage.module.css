@@ -35,7 +35,7 @@
 
 .container {
   display: grid;
-  min-height: 120vh;
+  min-height: 80vh;
   width: auto;
   max-width: 1170px;
   margin-top: 3rem;
