@@ -13,6 +13,7 @@ const Hero = () => {
         <div className={styles.textAnimate}>
           <h3>Full Stack Web Developer</h3>
         </div>
+         <p>UI/UX Designer</p>
         <p>Knack for building front-end and backend operations</p>
         <div className={styles.btnBox}>
           <Link to="/contact">
