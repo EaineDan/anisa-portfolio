@@ -175,7 +175,7 @@ const Projectspage = () => {
           <div className={styles.container}>
             <img src={portfolio} alt="" className={styles.pic} />
             <div className={styles.content}>
-              <h3>Anisa Portfolio</h3>
+              <h3>Nisa Portfolio</h3>
               <h5>Personal Portfolio</h5>
               <p>
                 Designed my own portfolio, routed the various pages and created
@@ -199,31 +199,30 @@ const Projectspage = () => {
               </a>
             </div>
           </div>
-
-
-          <div className={styles.container}>
-            <img src={elevate} alt="" className={styles.pic} />
-            <div className={styles.content}>
-              <h3>NisaVille</h3>
-              <h5>Think Comfort, Think Luxury</h5>
-              <p>
-                A real estate website that provides clients with various home
-                options to choose from and luxurious apartments for ones
-                comfort all with ease.{" "}
-              </p>
-            </div>
-            <div className={styles.icon}>
-              <a
-                href="https://www.github.com/EaineDan"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
-            </div>
-                </div>
-
+           <div className={styles.newprojects}>
             <div className={styles.container}>
+              <img src={elevate} alt="" className={styles.pic} />
+              <div className={styles.content}>
+                <h3>NisaVille</h3>
+                <h5>Think Comfort, Think Luxury</h5>
+                <p>
+                  A real estate website that provides clients with various home
+                  options to choose from and luxurious apartments for ones
+                  comfort all with ease.{" "}
+                </p>
+              </div>
+              <div className={styles.icon}>
+                <a
+                  href="https://www.github.com/EaineDan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+              </div>
+            </div>
+
+              <div className={styles.container}>
               <img src={dashboard} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>Admin Dashboard</h3>
@@ -244,14 +243,13 @@ const Projectspage = () => {
                 </a>
               </div>
             </div>
-        
+        </div>
 
-          <div>
-            <h2 className={styles.subhead}>
-              <span>New </span>Projects
-            </h2>
-            <div className={styles.projects}>
-              <div className={styles.container}>
+        <div>
+          <h2 className={styles.subhead}>
+            <span>New </span>Projects
+          </h2>
+            <div className={styles.container}>
               <img src={forage} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>Forage</h3>
@@ -270,7 +268,6 @@ const Projectspage = () => {
                   <FaGithub />
                 </a>
               </div>
-                </div>
             </div>
           </div>
         </div>
