@@ -246,7 +246,7 @@ const Projectspage = () => {
  
         
 
-          <div>
+          <div className={styles.newProjects}>
             <h2 className={styles.subhead}>
               <span>New </span>Projects
             </h2>
