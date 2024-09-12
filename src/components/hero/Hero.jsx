@@ -12,7 +12,7 @@ const Hero = () => {
         </h1>
         <div className={styles.textAnimate}>
           <h3>Full Stack Web Developer</h3>
-          <h4>UI/UX Designer</h4>
+          <h3>UI/UX Designer</h3>
         </div>
   
         <p>Knack for building front-end and backend operations</p>
