@@ -24,7 +24,7 @@ const Projects = () => {
         My <span className="text-mainColor">Projects</span>
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 text-3xl lg:grid-cols-3 min-h-84 gap-12 mx-auto max-w-7xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 text-3xl lg:grid-cols-4 min-h-84 gap-10 mx-auto max-w-7xl">
         {projects.map((project, index) => (
           <div
             key={index}
