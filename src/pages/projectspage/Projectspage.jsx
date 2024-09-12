@@ -221,8 +221,8 @@ const Projectspage = () => {
                 <FaGithub />
               </a>
             </div>
-            
-            <div className={styles.container}>
+
+            {/* <div className={styles.container}>
               <img src={dashboard} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>Admin Dashboard</h3>
@@ -243,7 +243,7 @@ const Projectspage = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div>
             <h2 className={styles.subhead}>
