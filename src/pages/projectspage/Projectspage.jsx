@@ -246,11 +246,12 @@ const Projectspage = () => {
  
         
 
-          <div className={styles.projects}>
+          <div >
             <h2 className={styles.subhead}>
               <span>New </span>Projects
             </h2>
-            <div className={styles.container}>
+            <div className={styles.projects}>
+              <div className={styles.container}>
               <img src={forage} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>Forage</h3>
@@ -269,6 +270,7 @@ const Projectspage = () => {
                   <FaGithub />
                 </a>
               </div>
+                </div>
             </div>
           </div>
         </div>
