@@ -199,8 +199,9 @@ const Projectspage = () => {
               </a>
             </div>
           </div>
-           <div className={styles.newprojects}>
-            <div className={styles.container}>
+          
+    
+         <div className={styles.container}>
               <img src={elevate} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>NisaVille</h3>
@@ -219,18 +220,17 @@ const Projectspage = () => {
                 >
                   <FaGithub />
                 </a>
-              </div>
-            </div>
+           </div>
 
-              <div className={styles.container}>
+           <div className={styles.container}>
               <img src={dashboard} alt="" className={styles.pic} />
               <div className={styles.content}>
                 <h3>Admin Dashboard</h3>
-                <h5>Working on Admin Dashboard</h5>
+                <h5>Admin Dashboard</h5>
                 <p>
-                  Collaborating on a real-time group project to create and
+                  Collaborated on a real-time group project to create and
                   design an admin dashboard using both frontend and backend
-                  operations.
+                  operations.Utilizing validation and aunthentication operators.
                 </p>
               </div>
               <div className={styles.icon}>
@@ -242,7 +242,7 @@ const Projectspage = () => {
                   <FaGithub />
                 </a>
               </div>
-            </div>
+           </div>
         </div>
 
         <div>
