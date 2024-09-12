@@ -20,7 +20,7 @@ const Hero = () => {
               Hire Me
             </a>
           </Link>
-          <a href="MyResume.pdf" download="AnisaCv.pdf" className={styles.btn}>
+          <a href="MyResume.pdf" download="MyResume.pdf" className={styles.btn}>
             Resume
           </a>
         </div>
