@@ -18,7 +18,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
-  column-gap: 10rem;
+  column-gap: 8rem;
   cursor: pointer;
 }
 
@@ -41,8 +41,8 @@
 }
 
 .pic {
-  width: 700px;
-  height: 350px;
+  width: 600px;
+  height: 400px;
   object-fit: center;
   border: 2.5px solid var(--main-color);
   border-radius: 15px;
