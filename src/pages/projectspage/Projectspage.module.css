@@ -8,6 +8,7 @@
   font-size: 4rem;
   text-align: center;
   margin-top: 4rem;
+  margin-bottom: 1.5rem;
   cursor: pointer;
 }
 
@@ -42,10 +43,10 @@
 
 .pic {
   width: 600px;
-  height: 450px;
+  height: 400px;
   object-fit: center;
   border: 2.5px solid var(--main-color);
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 h3 {
@@ -64,7 +65,7 @@ h5 {
 
 p {
   font-size: 20px;
-  line-height: 3.5rem;
+  line-height: 3rem;
   padding-left: 0;
   padding-bottom: 10px;
 }
