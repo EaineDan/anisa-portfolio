@@ -14,7 +14,7 @@
 
 .projects {
   min-height: 100vh;
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
